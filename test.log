@@ -1,0 +1,9 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.10, pytest-5.4.3, py-1.11.0, pluggy-0.13.1
+rootdir: /Users/bitrocks/dev/bc/mev/whatsabi-py
+plugins: web3-5.31.3
+collected 2 items
+
+tests/test_whatsabi_py.py ..                                             [100%]
+
+============================== 2 passed in 0.02s ===============================
