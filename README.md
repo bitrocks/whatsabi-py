@@ -19,6 +19,23 @@ provider = Web3(Web3.HTTPProvider(node_url))
 address = "0x00000000006c3852cbEf3e08E8dF289169EdE581"
 code = provider.eth.get_code(address)
 selectors = selectors_from_bytecode(code.hex())
+print(selectors)
+# ['0x00000000',
+#  '0x06fdde03',
+#  '0x46423aa7',
+#  '0x55944a42',
+#  '0x5b34b966',
+#  '0x79df72bd',
+#  '0x87201b41',
+#  '0x88147732',
+#  '0xa8174404',
+#  '0xb3a34c4c',
+#  '0xe7acab24',
+#  '0xed98a574',
+#  '0xf07ec373',
+#  '0xf47b7740',
+#  '0xfb0f3ee1',
+#  '0xfd9f1e10']
 
 # SamczsunSignatureLookup
 samczsun_sig_lookup = SamczsunSignatureLookup()
