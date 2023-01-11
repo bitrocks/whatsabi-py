@@ -76,7 +76,7 @@ async def test_4byte_load_events():
 
 
 @pytest.mark.asyncio
-# @pytest.mark.skip(reason="comment this out if network is avaliable")
+@pytest.mark.skip(reason="comment this out if network is avaliable")
 async def test_multi_signature_lookup():
     multi_signature_lookup = MultiSignatureLookup(
         [SamczsunSignatureLookup(), FourByteSignatureLookup()]

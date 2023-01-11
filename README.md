@@ -18,7 +18,7 @@ node_url = "http://127.0.0.1:8545" # Change to your endpoint
 provider = Web3(Web3.HTTPProvider(node_url))
 address = "0x00000000006c3852cbEf3e08E8dF289169EdE581"
 code = provider.eth.get_code(address)
-selectors = selectors_from_bytecode(code)
+selectors = selectors_from_bytecode(code.hex())
 
 # SamczsunSignatureLookup
 samczsun_sig_lookup = SamczsunSignatureLookup()
