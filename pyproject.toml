@@ -18,6 +18,7 @@ pytest-asyncio = "^0.20.3"
 
 [tool.poetry.scripts]
 hello = "cli:hello"
+guess_abi = "cli:guess_abi"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
