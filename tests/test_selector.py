@@ -1,4 +1,4 @@
-from whatsabi_py.selectors import selectors_from_bytecode, selectors_from_abi
+from whatsabi.selectors import selectors_from_bytecode, selectors_from_abi
 
 
 def test_selectors_from_bytecode_match_from_abi(sample_code, sample_abi):

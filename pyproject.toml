@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "whatsabi-py"
+name = "whatsabi"
 version = "0.1.0"
 description = ""
 authors = ["bitrocks <0xbitrocks@gmail.com>"]

@@ -1,4 +1,4 @@
-from whatsabi_py import __version__
+from whatsabi import __version__
 
 
 def test_version():

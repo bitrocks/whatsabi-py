@@ -1,12 +1,12 @@
 import pytest
-from whatsabi_py.loaders import (
+from whatsabi.loaders import (
     EtherscanLoader,
     SourcifyABILoader,
     FourByteSignatureLookup,
     SamczsunSignatureLookup,
     MultiSignatureLookup,
 )
-from whatsabi_py.selectors import selectors_from_abi, events_from_bytecode
+from whatsabi.selectors import selectors_from_abi, events_from_bytecode
 
 
 @pytest.mark.asyncio

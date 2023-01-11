@@ -11,8 +11,8 @@ A python implementation of [WhatsABI](https://github.com/shazow/whatsabi).
 ```py
 import asyncio
 from web3 import Web3
-from whatsabi_py.selectors import selectors_from_bytecode
-from whatsabi_py.loaders import SamczsunSignatureLookup, FourByteSignatureLookup, MultiSignatureLookup
+from whatsabi.selectors import selectors_from_bytecode
+from whatsabi.loaders import SamczsunSignatureLookup, FourByteSignatureLookup, MultiSignatureLookup
 
 node_url = "http://127.0.0.1:8545" # Change to your endpoint
 provider = Web3(Web3.HTTPProvider(node_url))
